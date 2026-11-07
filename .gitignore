@@ -1,0 +1,36 @@
+
+# Dataset and patient data
+data/raw/
+data/interim/
+data/processed/
+
+# Model weights and checkpoints
+models/*
+!models/.gitkeep
+*.pth
+*.pt
+*.h5
+*.keras
+*.onnx
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
