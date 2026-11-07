@@ -34,3 +34,21 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Windows / PowerShell cache
+Microsoft/
+
+# Other model and serialized files
+*.pkl
+*.pickle
+*.joblib
+*.safetensors
+
+# Dataset archives
+*.zip
+*.7z
+*.rar
+
+# Temporary and cache files
+.cache/
+*.tmp

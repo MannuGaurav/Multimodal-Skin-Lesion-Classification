@@ -1,0 +1,29 @@
+# Data handling
+numpy
+pandas
+
+# Image processing
+Pillow
+
+# Data visualization
+matplotlib
+seaborn
+
+# Machine learning
+scikit-learn==1.7.2
+xgboost
+joblib
+
+# Deep learning
+torch
+torchvision
+
+# Notebooks
+jupyter
+ipykernel
+
+# Configuration
+PyYAML
+
+# Progress bars
+tqdm

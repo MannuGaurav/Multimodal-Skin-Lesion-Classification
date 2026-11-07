@@ -1,0 +1,33 @@
+{
+    "Benign": {
+        "precision": 0.7692307692307693,
+        "recall": 0.8064516129032258,
+        "f1-score": 0.7874015748031497,
+        "support": 62.0
+    },
+    "Malignant": {
+        "precision": 0.8098591549295775,
+        "recall": 0.7986111111111112,
+        "f1-score": 0.8041958041958042,
+        "support": 144.0
+    },
+    "Precancerous": {
+        "precision": 0.8061224489795918,
+        "recall": 0.797979797979798,
+        "f1-score": 0.8020304568527918,
+        "support": 99.0
+    },
+    "accuracy": 0.8,
+    "macro avg": {
+        "precision": 0.7950707910466462,
+        "recall": 0.8010141739980451,
+        "f1-score": 0.7978759452839151,
+        "support": 305.0
+    },
+    "weighted avg": {
+        "precision": 0.800387371970972,
+        "recall": 0.8,
+        "f1-score": 0.8000790448210409,
+        "support": 305.0
+    }
+}

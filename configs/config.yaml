@@ -1,0 +1,46 @@
+project:
+  name: "Multimodal Skin Lesion Classification"
+  dataset: "PAD-UFES-20"
+
+data:
+  metadata_path: null
+  image_directories: []
+  raw_directory: "data/raw"
+  interim_directory: "data/interim"
+  processed_directory: "data/processed"
+
+target:
+  original_labels:
+    - BCC
+    - SCC
+    - MEL
+    - ACK
+    - NEV
+    - SEK
+
+  grouped_labels:
+    malignant: [BCC, SCC, MEL]
+    precancerous: [ACK]
+    benign: [NEV, SEK]
+
+experiments:
+  image_only: true
+  clinical_only: true
+  multimodal: true
+
+splitting:
+  strategy: "patient_level"
+  selection_seed: 19
+  approximate_train: 0.70
+  approximate_validation: 0.15
+  approximate_test: 0.15
+
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1
+    - macro_f1
+    - confusion_matrix
+    - roc_auc

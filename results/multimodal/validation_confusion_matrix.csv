@@ -1,0 +1,4 @@
+,Benign,Malignant,Precancerous
+Benign,50,9,3
+Malignant,13,115,16
+Precancerous,2,18,79
